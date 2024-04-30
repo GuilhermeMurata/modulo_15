@@ -31,7 +31,7 @@ header {
   max-width: 760px;
 }
 .form-container h2 {
-  font-size: 42px;
+  font-size: 3;
   text-align: center;
 }
 .form-container form {
@@ -63,6 +63,15 @@ header {
   font-weight: bold;
   cursor: pointer;
   color: #fff;
+}
+.form-container form button:hover {
+  background-color: #19232e;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 80%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
